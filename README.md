@@ -7,6 +7,14 @@ Released under a [BSD license](http://kohanaframework.org/license), Kohana can b
 ## Composer bootstrap
 This repo is a bootstrap to get you start using Kohana through [Composer](http://getcomposer.org/).
 
+There are 2 ways of installing Kohana:
+
+### 1. Composer project
+
+Open your command prompt, ```cd``` into the dir you want to install Kohana in and run ```composer create-project happydemon/kohana-composer-bootstrap```
+
+### 2. Repo download
+
 Just download this repo, put it where you need it and run ```composer install```, it will download the framework and their bundled modules from the composer.json in the root dir.
 
 After that you can change composer.json to include any package you'd like and run ```composer update```.
