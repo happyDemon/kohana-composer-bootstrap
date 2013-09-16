@@ -1,14 +1,32 @@
 {
+	"name"       :"happydemon/kohana-composer-bootstrap",
+	"type"       :"project",
+	"description":"Kohana Framework project, installable through composer",
+	"keywords"   :["kohana", "core", "orm", "auth", "database", "cache", "codebench", "image", "minion", "unittest", "userguide"],
+	"homepage"   :"https://github.com/happyDemon/kohana-composer-bootstrap",
+	"license"    :"MIT",
+	"authors"    :[
+		{
+			"name"    :"Kohana",
+			"homepage": "http://kohanaframework.com",
+			"role"    :"Developer"
+		},
+		{
+			"name"    :"Maxim Kerstens",
+			"email"   :"maxim.kerstens@gmail.com",
+			"role"    :"Project maintainer"
+		}
+	],
 	"require": {
-		"kohana/core": "3.3.*",
-		"kohana/database": "3.3.*",
-		"kohana/orm": "3.3.*",
-		"kohana/cache": "3.3.*",
-		"kohana/codebench": "3.3.*",
-		"kohana/image": "3.3.*",
-		"kohana/minion": "3.3.*",
-		"kohana/unittest": "3.3.*",
-		"kohana/userguide": "3.3.*"
+		"kohana/core"       : "3.3.*",
+		"kohana/database"   : "3.3.*",
+		"kohana/orm"        : "3.3.*",
+		"kohana/cache"      : "3.3.*",
+		"kohana/codebench"  : "3.3.*",
+		"kohana/image"      : "3.3.*",
+		"kohana/minion"     : "3.3.*",
+		"kohana/unittest"   : "3.3.*",
+		"kohana/userguide"  : "3.3.*"
 	},
 	"config": {
 		"vendor-dir": "vendor"
